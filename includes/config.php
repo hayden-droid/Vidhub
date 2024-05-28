@@ -3,7 +3,7 @@
 ob_start(); // Turn on output buffering
 session_start();
 
-date_default_timezone_set("Asia/Kuala_Lumpur");
+date_default_timezone_set("Europe/London");
 
 try{
 	// $con = new PDO("**Your Host Name**", "**Your DB name**", "**Your DB Password**");
